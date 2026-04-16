@@ -156,6 +156,16 @@ function loadHint (hint: ChallengeHint): HTMLElement {
     target.parentElement.insertBefore(wrapper, target)
   }
 
+  // The width of the hacking-instructor div is not available until it is inserted on the target above,
+  // so we can now fetch its width and offset the wrapper's position to make the whole instructor div fit
+  const instructorWidth = elem.offsetWidth
+  const wrapperX = wrapper.getBoundingClientRect().left
+  const rightEdgeX = document.body.getBoundingClientRect().right
+  const xOffsetToFit = wrapperX + instructorWidth - rightEdgeX
+
+  // Offset the wrapper's X position via style
+  Object.assign(wrapper.style, { transform: `translateX(-${xOffsetToFit}px)`})
+
   return wrapper
 }
 
