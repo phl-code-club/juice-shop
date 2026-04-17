@@ -13,7 +13,7 @@ application:
   favicon: favicon_js.ico
   # The name of the theme to use -- purple-green looks nice but the green needs to be darker
   # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
-  theme: bluegrey-lightgreen
+  theme: purple-green
   # Name of altcoin for Blockchain Hype challenge
   altcoinName: Galacticoin
   privacyContactEmail: donotreply@intergalactic.bazaar
@@ -67,7 +67,7 @@ application:
   showGitHubLinks: true
   localBackupEnabled: true
   numberOfRandomFakeUsers: 0
-  
+
   #googleOauth:
     #clientId: ~
     #authorizedRedirects:
