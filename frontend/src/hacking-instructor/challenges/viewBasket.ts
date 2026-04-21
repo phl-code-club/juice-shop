@@ -5,7 +5,7 @@
 
 import {
   waitInMs,
-  sleep, waitForAngularRouteToBeVisited, waitForLogIn, waitForDevTools
+  sleep, waitForAngularRouteToBeVisited, waitForLogIn
 } from '../helpers/helpers'
 import { type ChallengeInstruction } from '../'
 
@@ -16,7 +16,7 @@ export const ViewBasketInstruction: ChallengeInstruction = {
       text:
           "This challenge is about **Horizontal Privilege Escalation**, meaning you are supposed to access data that does not belong to your own account but to another user's.",
       fixture: 'app-navbar',
-      resolved: waitInMs(18000)
+      resolved: waitInMs(12000)
     },
     {
       text:
@@ -48,7 +48,7 @@ export const ViewBasketInstruction: ChallengeInstruction = {
       text:
           "Open the browser's _Development Tools_ and locate the _Session Storage_ tab. Similar to 🍪s, it can be used to store data in key/value pairs for each website.",
       fixture: 'app-navbar',
-      resolved: waitForDevTools()
+      resolved: waitInMs(12000)
     },
     {
       text:
