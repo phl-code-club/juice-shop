@@ -72,13 +72,13 @@ export const ReflectedXssInstruction: ChallengeInstruction = {
     },
     {
       text:
-          'In a reflected XSS attack, a payload is often included in URI or HTTP parameters. Pay attention to the id parameter in the url. Could it be vulnerable to reflected XSS? Give it a try by replacing the value of the id parameter with the payload: <code>&lt;iframe src="javascript:alert(&#96;xss&#96;)"&gt;</code>. Do not enter immediately. We will let you know once you have the correct URL in place.',
+          'In a reflected XSS attack, a payload is often included in URI or HTTP parameters. Pay attention to the id parameter in the url. Could it be vulnerable to reflected XSS? Give it a try by replacing the value of the id parameter with the payload: <code>&lt;iframe src="javascript:alert(&#96;xss&#96;)"&gt;</code>. Press enter, and we will let you know once you have the correct URL in place (or you might win the challenge, depending on your browser).',
       fixture: 'app-navbar',
       resolved: waitForRightUriQueryParamPair('id', '<iframe src="javascript:alert(`xss`)">')
     },
     {
       text:
-          'That looks right! Now you can hit enter to solve this challenge. If an alert box appears, confirm it to close it. Happy hacking :)',
+          'That looks right! Now you can hit enter or refresh the page to solve this challenge. If an alert box appears, confirm it to close it. Happy hacking :)',
       fixture: 'app-navbar',
       resolved: waitInMs(10000)
     }
