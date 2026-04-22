@@ -42,7 +42,7 @@ export const ForgedFeedbackInstruction: ChallengeInstruction = {
       text:
           "Open the browser's _Development Tools_ and try finding anything interesting while inspecting the feedback form.",
       fixture: 'app-navbar',
-      resolved: waitForDevTools()
+      resolved: waitInMs(10000)
     },
     {
       text:
