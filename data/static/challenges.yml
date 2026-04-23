@@ -1473,17 +1473,6 @@
     - Heroku
     - Gitpod
 -
-  name: 'Mass Dispel'
-  category: 'Miscellaneous'
-  description: 'Close multiple "Challenge solved"-notifications in one go.'
-  difficulty: 1
-  hints:
-    - 'Either check the official documentation or inspect a notification UI element directly.'
-    - 'This challenge is most easily solvable immediately after a server restart.'
-    - 'Alternatively you can also inspect any "Challenge solved"-notification in your browser to understand its convenience feature.'
-  mitigationUrl: ~
-  key: closeNotificationsChallenge
--
   name: 'Security Advisory'
   category: 'Miscellaneous'
   description: 'The Intergalactic Bazaar is susceptible to a known vulnerability in a library, for which an advisory has already been issued, marking the Intergalactic Bazaar as <i>known affected</i>. A fix is still pending. <a href="/#/contact">Inform the shop</a> about a suitable checksum as proof that you did your due diligence.'
