@@ -1375,22 +1375,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html'
   key: csrfChallenge
 -
-  name: 'Bonus Payload'
-  category: 'XSS'
-  tags:
-    - Shenanigans
-    - Tutorial
-  description: 'Use the bonus payload <code>&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;&lt;/iframe&gt;</code> in the <i>DOM XSS</i> challenge.'
-  difficulty: 1
-  hints:
-    - 'First, solve the "Perform a DOM XSS attack" challenge.'
-    - 'Now it is just a question of copying and pasting the payload into the same vulnerable field.'
-    - 'Crank up the volume of your computer before submitting the payload! 🔊'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html'
-  key: xssBonusChallenge
-  tutorial:
-    order: 3
--
   name: 'Reset Uvogin''s Password'
   category: 'Sensitive Data Exposure'
   tags:
