@@ -1310,16 +1310,16 @@
   mitigationUrl: ~
   key: zeroStarsChallenge
 -
-  name: 'Missing Encoding'
+  name: 'Missing URL Encoding'
   category: 'Improper Input Validation'
   tags:
     - Shenanigans
   description: 'Retrieve the photo of Bjoern''s cat in "melee combat-mode".'
-  difficulty: 1
+  difficulty: 2
   hints:
     - 'Check the Photo Wall for an image that could not be loaded correctly.'
     - 'You just have to (literally) inspect the problem to understand the basic issue.'
-    - 'It can also help to try out the Tweet-button of the entry and observe what happens.'
+    - 'Some characters in the URL may be more problematic than the ones you expect.'
   mitigationUrl: ~
   key: missingEncodingChallenge
 -
