@@ -811,19 +811,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html'
   key: noSqlReviewsChallenge
 -
-  name: 'Outdated Allowlist'
-  category: 'Unvalidated Redirects'
-  tags:
-    - Code Analysis
-  description: 'Let us redirect you to one of our crypto currency addresses which are not promoted any longer.'
-  difficulty: 1
-  hints:
-    - 'When removing references to those addresses from the code the developers have been a bit sloppy.'
-    - 'More particular, they have been sloppy in a way that even the Angular Compiler was not able to clean up after them automatically.'
-    - 'It is of course not sufficient to just visit any of the crypto currency links directly to solve the challenge.'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html'
-  key: redirectCryptoCurrencyChallenge
--
   name: 'Password Strength'
   category: 'Broken Authentication'
   tags:
