@@ -432,7 +432,7 @@
   hints:
     - 'You can solve this by tampering with the user interface or by intercepting the communication with the RESTful backend.'
     - 'To find the client-side leverage point, closely analyze the HTML form used for feedback submission.'
-    - 'The backend-side leverage point is similar to some of the XSS challenges found in OWASP Juice Shop.'
+    - 'Look for "hidden" inputs in the form.'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html'
   key: forgedFeedbackChallenge
   tutorial:
