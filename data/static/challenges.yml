@@ -1307,6 +1307,7 @@
   difficulty: 1
   hints:
     - 'Before you invest time bypassing the API, you might want to play around with the UI a bit.'
+    - 'If the UI is giving you trouble, consider using the Edit and Resend feature of the Network DevTools tab :)'
   mitigationUrl: ~
   key: zeroStarsChallenge
 -
