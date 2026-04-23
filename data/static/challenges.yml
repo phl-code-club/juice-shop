@@ -264,7 +264,7 @@
   description: 'Access a confidential document.'
   difficulty: 1
   hints:
-    - 'Analyze and tamper with links in the application that deliver a file directly.'
+    - 'Take a look at the About Us page... maybe play around with some of the links on there.'
     - 'The file you are looking for is not protected in any way. Once you found it you can also access it.'
   mitigationUrl: ~
   key: directoryListingChallenge
