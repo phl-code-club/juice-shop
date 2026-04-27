@@ -482,6 +482,11 @@ ctf:
         type: string
       code:
         type: string
+    customChallenge:
+      name:
+        type: string
+      code:
+        type: string
     xxeFileDisclosureChallenge:
       name:
         type: string

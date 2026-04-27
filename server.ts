@@ -61,6 +61,9 @@ import validatePreconditions from './lib/startup/validatePreconditions'
 import registerWebsocketEvents from './lib/startup/registerWebsocketEvents'
 import restoreOverwrittenFilesWithOriginals from './lib/startup/restoreOverwrittenFilesWithOriginals'
 
+import * as challengeUtils from './lib/challengeUtils'
+import { challenges } from './data/datacache'
+
 import datacreator from './data/datacreator'
 import locales from './data/static/locales.json'
 
@@ -232,6 +235,17 @@ restoreOverwrittenFilesWithOriginals().then(() => {
   app.use('/assets/public/images/products', verify.accessControlChallenges())
   app.use('/assets/public/images/uploads', verify.accessControlChallenges())
   app.use('/assets/i18n', verify.accessControlChallenges())
+
+  /**
+   * CUSTOM CHALLENGE IMPLEMENTATION
+   * When the user visits "/rand0m-str1ng" with "?what=yeah" the backend will mark the "customChallenge" challenge solved
+   * and return Hello, World!
+   */
+  app.get('/rand0m-str1ng', (req, res) => {
+    console.log(req.query)
+    challengeUtils.solveIf(challenges.customChallenge, () => { return req.query.what === 'yeah' })
+    res.send('Hello, World!')
+  })
 
   /* Checks for challenges solved by abusing SSTi and SSRF bugs */
   app.use('/solve/challenges/server-side', verify.serverSideChallenges())

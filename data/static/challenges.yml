@@ -1279,6 +1279,17 @@
   - Heroku
   - Gitpod
 -
+  name: 'Custom challenge title'
+  category: 'Custom Category'
+  tags:
+    - Custom Challenges
+  description: 'Look! A custom challenge.'
+  difficulty: 1
+  hints:
+    - 'Go to /rand0m-str1ng and enter the secret parameter to solve!'
+    - 'its just ?what=yeah'
+  key: customChallenge
+-
   name: 'XXE DoS'
   category: 'XXE'
   tags:
