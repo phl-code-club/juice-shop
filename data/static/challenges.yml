@@ -116,30 +116,6 @@
   mitigationUrl: ~
   key: tokenSaleChallenge
 -
-  name: 'Mint the Honey Pot'
-  category: 'Improper Input Validation'
-  tags:
-      - Web3
-      - Internet Traffic
-  description: 'Mint the Honey Pot NFT by gathering BEEs from the bee haven.'
-  difficulty: 3
-  hints:
-    - 'Discover NFT wonders among the captivating visual memories.'
-  mitigationUrl: ~
-  key: nftMintChallenge
--
-  name: 'Wallet Depletion'
-  category: 'Miscellaneous'
-  tags:
-      - Web3
-      - Internet Traffic
-  description: 'Withdraw more ETH from the new wallet than you deposited.'
-  difficulty: 6
-  hints:
-    - 'Try to exploit the contract of the wallet.'
-  mitigationUrl: ~
-  key: web3WalletChallenge
--
   name: 'Web3 Sandbox'
   category: 'Broken Access Control'
   tags:
