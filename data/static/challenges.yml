@@ -615,7 +615,7 @@
   category: 'Sensitive Data Exposure'
   tags:
     - OSINT
-  description: 'Log in with Amy''s original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the "One Important Final Note")'
+  description: 'Log in with Amy''s original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the "One Important Final Note" -- these are both hints)'
   difficulty: 3
   hints:
     - 'This challenge will make you go after a needle in a haystack.'
