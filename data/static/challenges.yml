@@ -18,7 +18,7 @@
   description: 'Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src="javascript:alert(`xss`)"&gt;</code> without using the frontend application at all.'
   difficulty: 3
   hints:
-    - 'You need to work with the server-side API directly. Try different HTTP verbs on different entities exposed through the API.'
+    - 'You need to work with the server-side API directly. Try different HTTP verbs on different entities exposed through the API (*cough* like maybe product entities).'
     - 'A matrix of known data entities and their supported HTTP verbs through the API can help you here.'
     - 'Careless developers might have exposed API methods that the client does not even need.'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
