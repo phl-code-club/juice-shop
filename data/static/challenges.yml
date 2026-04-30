@@ -542,22 +542,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html'
   key: dlpPasswordSprayingChallenge
 -
-  name: 'Leaked Unsafe Product'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - Shenanigans
-    - OSINT
-  description: 'Identify an unsafe product that was removed from the shop and <a href="/#/contact">inform the shop</a> which ingredients are dangerous.'
-  difficulty: 4
-  hints:
-    - 'Your own SQLi and someone else''s Ctrl-V will be your accomplices in this challenge!'
-    - 'You must first identify the "unsafe product" which ist not available any more in the shop.'
-    - 'Solving the "Order the Christmas special offer of 2014" challenge might give it to you as by-catch.'
-    - 'The actual data you need to solve this challenge was leaked on the same platform that was involved in the "Dumpster dive the Internet for a leaked password and log in to the original user account it belongs to" challenge.'
-    - 'Google is a particularly good accomplice in this challenge.'
-  mitigationUrl: ~
-  key: dlpPastebinDataLeakChallenge
--
   name: 'Legacy Typosquatting'
   category: 'Vulnerable Components'
   description: '<a href="/#/contact">Inform the shop</a> about a <i>typosquatting</i> trick it has been a victim of at least in <code>v6.2.0-SNAPSHOT</code>. (Mention the exact name of the culprit)'
