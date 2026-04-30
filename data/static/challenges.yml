@@ -45,9 +45,9 @@
   description: 'Register as a user with administrator privileges.'
   difficulty: 3
   hints:
-    - 'You have to assign the unassignable.'
+    - 'There might be a secret parameter in the API call called ''role'' that isn''t used for normal users :)'
     - 'Register as an ordinary user to learn what API endpoints are involved in this use case.'
-    - 'Think of the simplest possible implementations of a distinction between regular users and administrators.'
+    - 'It may help to do some research on Mass Assignment vulnerabilities :)'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html'
   key: registerAdminChallenge
 -
