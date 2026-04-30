@@ -705,7 +705,7 @@
   description: 'Put an additional product into another user''s shopping basket.'
   difficulty: 3
   hints:
-    - 'Have an eye on the HTTP traffic while placing products in the shopping basket.'
+    - 'Have an eye on the HTTP traffic while placing products in the shopping basket, and look into HTTP Parameter Pollution :)'
     - 'Adding more instances of the same product to someone else’s basket does not qualify as a solution. The same goes for stealing from someone else’s basket.'
     - 'This challenge requires a bit more sophisticated tampering than others of the same ilk.'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html'
