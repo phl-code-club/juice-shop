@@ -1050,7 +1050,7 @@
   description: 'Behave like any "white-hat" should before getting into the action.'
   difficulty: 2
   hints:
-    - 'This challenge asks you to act like an ethical hacker.'
+    - 'This challenge asks you to act like an ethical hacker. There is a standard location for sites to put a policy for security researchers to follow :)'
     - 'Undoubtedly you want to read our security policy before conducting any research on our application.'
     - 'As one of the good guys, would you just start attacking an application without consent of the owner?'
     - 'You also might want to read the security policy or any bug bounty program that is in place.'
