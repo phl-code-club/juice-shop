@@ -497,7 +497,7 @@
 -
   name: 'GDPR Data Erasure'
   category: 'Broken Authentication'
-  description: 'Log in with Chris'' erased user account.'
+  description: 'Log in with Chris'' erased user account. You''ll need to find his email through another exploit to complete this.'
   difficulty: 3
   hints:
     - 'Turns out that something is technically and legally wrong with the implementation of the "right to be forgotten" for users.'
