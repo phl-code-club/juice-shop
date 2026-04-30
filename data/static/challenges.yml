@@ -847,21 +847,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html'
   key: passwordRepeatChallenge
 -
-  name: 'Reset Bender''s Password'
-  category: 'Broken Authentication'
-  tags:
-    - OSINT
-  description: 'Reset Bender''s password via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
-  difficulty: 4
-  hints:
-    - 'If you have no idea who Bender is, please put down this book right now and watch the first episodes of Futurama before you come back.'
-    - 'Unexpectedly, Bender also chose to answer his chosen question truthfully.'
-    - 'Hints to the answer to Bender’s question can be found in publicly available information on the Internet.'
-    - 'If a seemingly correct answer is not accepted, you might just need to try some alternative spelling.'
-    - 'Brute forcing the answer should be next to impossible.'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: resetPasswordBenderChallenge
--
   name: 'Reset Bjoern''s Password'
   category: 'Broken Authentication'
   tags:
