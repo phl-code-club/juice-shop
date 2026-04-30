@@ -234,8 +234,8 @@
   description: 'Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src="javascript:alert(`xss`)"&gt;</code> bypassing a <i>client-side</i> security mechanism.'
   difficulty: 3
   hints:
-    - 'There are only some input fields in the Intergalactic Bazaar forms that validate their input.'
-    - 'Even less of these fields are persisted in a way where their content is shown on another screen.'
+    - 'There are only some input fields in the Intergalactic Bazaar forms that validate their input. *cough* consider your email address :)'
+    - 'Even less of these fields are persisted in a way where their content is shown on another screen. *cough cough cough* consider the Administration panel :)'
     - 'Bypassing client-side security can typically be done by either disabling it on the client (i.e. in the browser by manipulating the DOM tree) or by ignoring it completely and interacting with the backend instead.'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
   key: persistedXssUserChallenge
@@ -938,7 +938,7 @@
   description: 'Reset Jim''s password via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
   difficulty: 3
   hints:
-    - 'The hardest part of this challenge is actually to find out who Jim actually is.'
+    - 'The hardest part of this challenge is actually to find out who Jim actually is -- consider looking for reviews!'
     - 'Jim picked one of the worst security questions and chose to answer it truthfully.'
     - 'As Jim is a celebrity, the answer to his question is quite easy to find in publicly available information on the internet.'
     - 'Even brute forcing the answer should be possible with the right kind of word list.'
