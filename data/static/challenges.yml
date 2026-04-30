@@ -684,19 +684,6 @@
   tutorial:
     order: 12
 -
-  name: 'Login MC SafeSearch'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - Shenanigans
-    - OSINT
-  description: 'Log in with MC SafeSearch''s original user credentials without applying SQL Injection or any other bypass.'
-  difficulty: 2
-  hints:
-    - 'MC SafeSearch is a rapper who produced the song "Protect Ya'' Passwordz" which explains password & sensitive data protection very nicely.'
-    - 'After watching the music video of this song, you should agree that even ⭐⭐ is a slightly exaggerated difficulty rating for this challenge.'
-  mitigationUrl: ~
-  key: loginRapperChallenge
--
   name: 'Login Support Team'
   category: 'Security Misconfiguration'
   tags:
