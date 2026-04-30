@@ -273,7 +273,7 @@
 -
   name: 'Database Schema'
   category: 'Injection'
-  description: 'Exfiltrate the entire DB schema definition via SQL Injection.'
+  description: 'Exfiltrate the entire DB schema definition via SQL Injection, via a backend REST endpoint like /rest/products/search?q=search'
   difficulty: 3
   hints:
     - 'Find out where this information could come from. Then craft an attack string against an endpoint that offers an unnecessary way to filter data.'
