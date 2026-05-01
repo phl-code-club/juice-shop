@@ -230,7 +230,7 @@ products:
     image: velcro-patch.jpg
     reviews:
       - { text: '⏁⊑⟟⌇ ⌿⍀⍜⎅⎍☊⏁ ⎐⟒⍀⊬ ☌⍜⍜⎅ 👍', author: glorp }
-      - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
+      - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: john }
   -
     name: 'Woodruff Syrup "Forest Master X-Treme"'
     description: 'Harvested and manufactured in the Black Forest, Germany. Can cause hyperactive behavior in children. Can cause permanent green tongue when consumed undiluted.'
@@ -242,7 +242,7 @@ products:
     price: 1.99
     image: green_smoothie.jpg
     reviews:
-      - { text: 'Fresh out of a replicator.', author: jim }
+      - { text: 'Fresh out of a replicator. I love working on the Enterprise.', author: jim }
   -
     name: 'Quince Juice (1000ml)'
     description: 'Juice of the <em>Cydonia oblonga</em> fruit. Not exactly sweet but rich in Vitamin C.'
@@ -325,7 +325,7 @@ products:
     quantity: 8
     image: snakes_ladders.jpg
     reviews:
-      - { text: 'Wait for a 10$ Steam sale of Tabletop Simulator!', author: bjoernOwasp }
+      - { text: '⏁⊑⟟⌇ ⍜⋏⟒ ⋔⏃⎅⟒ ☌⌰⍜⍀⌿ ⌇⏃⎅ :(', author: glorp }
   -
     name: 'OWASP Snakes and Ladders - Mobile Apps'
     description: 'This amazing mobile app security awareness board game is <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1970691216">available for Tabletop Simulator on Steam Workshop</a> now!'
@@ -419,7 +419,7 @@ products:
     limitPerUser: 1
     image: lego_case.jpg
     reviews:
-      - { text: 'Check out the /#/photo-wall for some impressions of the assembly process!', author: bjoernOwasp }
+      - { text: 'Check out the /#/photo-wall for some cool pics btw', author: john }
   -
     name: 'DSOMM & Juice Shop User Day Ticket'
     description: 'You are going to the OWASP Global AppSec San Francisco 2024? <a href="https://www.eventbrite.com/e/owasp-global-appsec-san-francisco-2024-tickets-723699172707" target="_blank">Get a ticket<sup>*</sup></a> for this amazing side event as well! Check the juice-packed agenda <a href="https://owasp.org/www-project-juice-shop/#div-userday2024" target="_blank">here</a> for all the details!<br><br><small><small><sup>*</sup>=scroll down to <strong>Elevate: DSOMM and Juice Shop User Day (Sept. 25)</strong> after clicking <em>Get Tickets</em> on Eventbrite. Ticket price set to only covers fees for room, AV, and catering throughout the day.</small></small>'
