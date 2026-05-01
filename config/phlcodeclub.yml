@@ -210,7 +210,7 @@ products:
     price: 14.99
     image: tattoo.jpg
     reviews:
-      - { text: 'I straight-up gots nuff props fo''these tattoos!', author: rapper }
+      - { text: 'really enjoyed this,.., ', author: bjoern }
   -
     name: 'OWASP Juice Shop Mug'
     description: 'Black mug with regular logo on one side and CTF logo on the other! Your colleagues will envy you!'
@@ -229,7 +229,7 @@ products:
     limitPerUser: 5
     image: velcro-patch.jpg
     reviews:
-      - { text: 'This thang would look phat on Bobby''s jacked fur coat!', author: rapper }
+      - { text: '⏁⊑⟟⌇ ⌿⍀⍜⎅⎍☊⏁ ⎐⟒⍀⊬ ☌⍜⍜⎅ 👍', author: blorp }
       - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
   -
     name: 'Woodruff Syrup "Forest Master X-Treme"'
@@ -333,7 +333,7 @@ products:
     quantity: 0
     image: snakes_ladders_m.jpg
     reviews:
-      - { text: "Here yo' learn how tha fuck ta not show yo' goddamn phone on camera!", author: rapper }
+      - { text: "⟟⏁⟒⋔ ⋏⟒⎐⟒⍀ ⍀⟒☊⟒⟟⎐⟒⎅ -- ⌇⟒⌰⌰⟒⍀ ☊⌰⏃⟟⋔⌇ ⌿⟟⍀⏃⏁⟒⌇ ⌇⏁⍜⌰⟒ ⟟⏁ ⎎⍀⍜⋔ ⋔⊬ ⏃⟟⍀⌰⍜☊☍ ⏚⎍⏁ ⟟ ⋏⟒⎐⟒⍀ ☌⍜⏁ ⏃ ⏁⍀⏃☊☍⟟⋏☌ ⋏⎍⋔⏚⟒⍀. ⌀ ⍜⎍⏁ ⍜⎎ ⊕!", author: glorp }
   -
     name: 'OWASP Juice Shop Holographic Sticker'
     description: "Die-cut holographic sticker. Stand out from those 08/15-sticker-covered laptops with this shiny beacon of 80's coolness!"
@@ -341,7 +341,7 @@ products:
     quantity: 0
     image: holo_sticker.png
     reviews:
-      - { text: "Rad, dude!", author: rapper }
+      - { text: "⍙⍜⍀☍⌇ ⏃⌇ ⟒⌖⌿⟒☊⏁⟒⎅ :)", author: glorp }
       - { text: "Looks spacy on Bones' new tricorder!", author: jim }
       - { text: "Will put one on the Planet Express ship's bumper!", author: bender }
   -
@@ -383,7 +383,7 @@ products:
     limitPerUser: 1
     image: permafrost.jpg
     reviews:
-      - { text: "🧊 Let it go, let it go 🎶 Can't hold it back anymore 🎶 Let it go, let it go 🎶 Turn away and slam the door ❄️", author: rapper }
+      - { text: "🧊 Let it go, let it go 🎶 Can't hold it back anymore 🎶 Let it go, let it go 🎶 Turn away and slam the door ❄️", author: chris }
   -
     name: 'Best Juice Shop Salesman Artwork'
     description: 'Unique digital painting depicting Stan, our most qualified and almost profitable salesman. He made a succesful carreer in selling used ships, coffins, krypts, crosses, real estate, life insurance, restaurant supplies, voodoo enhanced asbestos and courtroom souvenirs before <em>finally</em> adding his expertise to the Juice Shop marketing team.'

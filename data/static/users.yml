@@ -269,3 +269,8 @@
   password: 'IamUsedForTesting'
   key: LetUsTest
   role: 'admin'
+-
+  email: blorp
+  password: 'glorp schlorp'
+  key: blorp
+  role: 'customer'
