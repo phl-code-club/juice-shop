@@ -229,7 +229,7 @@ products:
     limitPerUser: 5
     image: velcro-patch.jpg
     reviews:
-      - { text: '⏁⊑⟟⌇ ⌿⍀⍜⎅⎍☊⏁ ⎐⟒⍀⊬ ☌⍜⍜⎅ 👍', author: blorp }
+      - { text: '⏁⊑⟟⌇ ⌿⍀⍜⎅⎍☊⏁ ⎐⟒⍀⊬ ☌⍜⍜⎅ 👍', author: glorp }
       - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
   -
     name: 'Woodruff Syrup "Forest Master X-Treme"'

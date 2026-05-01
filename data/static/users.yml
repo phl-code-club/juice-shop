@@ -270,7 +270,7 @@
   key: LetUsTest
   role: 'admin'
 -
-  email: blorp
+  email: glorp
   password: 'glorp schlorp'
-  key: blorp
+  key: glorp
   role: 'customer'
