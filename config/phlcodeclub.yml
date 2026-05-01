@@ -51,7 +51,7 @@ application:
     linkUrl: ''
   # Might 
   securityTxt:
-    contact: 'mailto:donotreply@owasp-juice.shop'
+    contact: 'mailto:donotreply@intergalactic.bazaar'
     encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
     acknowledgements: '/#/score-board'
     hiring: '/#/jobs'
