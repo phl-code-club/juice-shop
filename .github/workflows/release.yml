@@ -34,6 +34,10 @@ jobs:
         uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+      - name: "Set labels for ${{ github.ref }}"
+        run: |
+          echo "VCS_REF=`git rev-parse --short HEAD`" >> $GITHUB_ENV
+          echo "BUILD_DATE=`date -u +”%Y-%m-%dT%H:%M:%SZ”`" >> $GITHUB_ENV
       - name: "Build and push Docker image"
         id: push
         uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
@@ -42,6 +46,10 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            VCS_REF=${{ env.VCS_REF }}
+            BUILD_DATE=${{ env.BUILD_DATE }}
+            CYCLONEDX_NPM_VERSION=${{ env.CYCLONEDX_NPM_VERSION }}
       - name: "Generate artifact attestation"
         uses: actions/attest@v4
         with:
