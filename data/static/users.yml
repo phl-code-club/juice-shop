@@ -261,9 +261,6 @@
   password: 'private'
   key: evm
   role: 'deluxe'
-  feedback:
-    comment: 'Please send me the juicy chatbot NFT in my wallet at /juicy-nft : "purpose betray marriage blame crunch monitor spin slide donate sport lift clutch"'
-    rating: 1
   securityQuestion:
     id: 10
     answer: "Used Emporium"
@@ -272,3 +269,8 @@
   password: 'IamUsedForTesting'
   key: LetUsTest
   role: 'admin'
+-
+  email: glorp
+  password: 'glorp schlorp'
+  key: glorp
+  role: 'customer'

@@ -91,7 +91,7 @@
   category: 'Broken Authentication'
   tags:
     - OSINT
-  description: 'Reset the password of Bjoern''s OWASP account via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
+  description: 'Reset the password of Bjoern Kimminich''s @owasp.org account via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
   difficulty: 3
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
   hints:
@@ -891,17 +891,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html'
   key: resetPasswordMortyChallenge
 -
-  name: 'Retrieve Blueprint'
-  category: 'Sensitive Data Exposure'
-  description: 'Deprive the shop of earnings by downloading the blueprint for one of its products.'
-  difficulty: 5
-  hints:
-    - 'Check for products which seem like a natural fit for being based on a blueprint.'
-    - 'You might want to pay attention to the images of the identified product candidates.'
-    - 'For your inconvenience the blueprint was not misplaced into the same place like so many others forgotten files covered in this chapter.'
-  mitigationUrl: ~
-  key: retrieveBlueprintChallenge
--
   name: 'SSRF'
   category: 'Broken Access Control'
   tags:
@@ -1381,10 +1370,10 @@
 -
   name: 'Security Advisory'
   category: 'Miscellaneous'
-  description: 'The Intergalactic Bazaar is susceptible to a known vulnerability in a library, for which an advisory has already been issued, marking the Intergalactic Bazaar as <i>known affected</i>. A fix is still pending. <a href="/#/contact">Inform the shop</a> about a suitable checksum as proof that you did your due diligence.'
+  description: 'The Intergalactic Bazaar is susceptible to a known vulnerability in a library, for which an advisory has already been issued using the CSAF spec, marking the Intergalactic Bazaar as <i>known affected</i>. A fix is still pending. <a href="/#/contact">Inform the shop</a> of the relevant SHA512 checksum as proof that you did your due diligence.'
   difficulty: 3
   hints:
-    - 'Security Advisories are often listed in the security.txt'
+    - 'If you found the security.txt already, you may want to just open its parent folder :)'
   mitigationUrl: ~
   key: csafChallenge
 -

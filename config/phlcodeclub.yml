@@ -51,11 +51,11 @@ application:
     linkUrl: ""
   # Might
   securityTxt:
-    contact: "mailto:donotreply@owasp-juice.shop"
-    encryption: "https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda"
-    acknowledgements: "/#/score-board"
-    hiring: "/#/jobs"
-    csaf: "/.well-known/csaf/provider-metadata.json" # scheme,host,port taken from baseUrl
+    contact: 'mailto:donotreply@intergalactic.bazaar'
+    encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
+    acknowledgements: '/#/score-board'
+    hiring: '/#/jobs'
+    csaf: '/.well-known/csaf/provider-metadata.json' # scheme,host,port taken from baseUrl
   promotion:
     video: owasp_promo.mp4
     subtitles: owasp_promo.vtt
@@ -193,12 +193,9 @@ products:
     price: 14.99
     image: tattoo.jpg
     reviews:
-      - {
-          text: "I straight-up gots nuff props fo'these tattoos!",
-          author: rapper,
-        }
-  - name: "OWASP Juice Shop Mug"
-    description: "Black mug with regular logo on one side and CTF logo on the other! Your colleagues will envy you!"
+      - { text: 'really enjoyed this,.., ', author: bjoern }
+  - name: 'OWASP Juice Shop Mug'
+    description: 'Black mug with regular logo on one side and CTF logo on the other! Your colleagues will envy you!'
     price: 21.99
     image: fan_mug.jpg
   - name: "OWASP Juice Shop Hoodie"
@@ -212,16 +209,10 @@ products:
     limitPerUser: 5
     image: velcro-patch.jpg
     reviews:
-      - {
-          text: "This thang would look phat on Bobby's jacked fur coat!",
-          author: rapper,
-        }
-      - {
-          text: "Looks so much better on my uniform than the boring Starfleet symbol.",
-          author: jim,
-        }
+      - { text: '⏁⊑⟟⌇ ⌿⍀⍜⎅⎍☊⏁ ⎐⟒⍀⊬ ☌⍜⍜⎅ 👍', author: glorp }
+      - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: john }
   - name: 'Woodruff Syrup "Forest Master X-Treme"'
-    description: "Harvested and manufactured in the Black Forest, Germany. Can cause hyperactive behavior in children. Can cause permanent green tongue when consumed undiluted."
+    description: 'Harvested and manufactured in the Black Forest, Germany. Can cause hyperactive behavior in children. Can cause permanent green tongue when consumed undiluted.'
     price: 6.99
     image: woodruff_syrup.jpg
   - name: "Green Smoothie"
@@ -229,9 +220,10 @@ products:
     price: 1.99
     image: green_smoothie.jpg
     reviews:
-      - { text: "Fresh out of a replicator.", author: jim }
-  - name: "Quince Juice (1000ml)"
-    description: "Juice of the <em>Cydonia oblonga</em> fruit. Not exactly sweet but rich in Vitamin C."
+      - { text: 'Fresh out of a replicator. I love working on the Enterprise.', author: jim }
+  -
+    name: 'Quince Juice (1000ml)'
+    description: 'Juice of the <em>Cydonia oblonga</em> fruit. Not exactly sweet but rich in Vitamin C.'
     price: 4.99
     image: quince.jpg
   - name: "Apple Pomace"
@@ -302,27 +294,23 @@ products:
     quantity: 8
     image: snakes_ladders.jpg
     reviews:
-      - {
-          text: "Wait for a 10$ Steam sale of Tabletop Simulator!",
-          author: bjoernOwasp,
-        }
-  - name: "OWASP Snakes and Ladders - Mobile Apps"
+      - { text: '⏁⊑⟟⌇ ⍜⋏⟒ ⋔⏃⎅⟒ ☌⌰⍜⍀⌿ ⌇⏃⎅ :(', author: glorp }
+  -
+    name: 'OWASP Snakes and Ladders - Mobile Apps'
     description: 'This amazing mobile app security awareness board game is <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1970691216">available for Tabletop Simulator on Steam Workshop</a> now!'
     price: 0.01
     quantity: 0
     image: snakes_ladders_m.jpg
     reviews:
-      - {
-          text: "Here yo' learn how tha fuck ta not show yo' goddamn phone on camera!",
-          author: rapper,
-        }
-  - name: "OWASP Juice Shop Holographic Sticker"
+      - { text: "⟟⏁⟒⋔ ⋏⟒⎐⟒⍀ ⍀⟒☊⟒⟟⎐⟒⎅ -- ⌇⟒⌰⌰⟒⍀ ☊⌰⏃⟟⋔⌇ ⌿⟟⍀⏃⏁⟒⌇ ⌇⏁⍜⌰⟒ ⟟⏁ ⎎⍀⍜⋔ ⋔⊬ ⏃⟟⍀⌰⍜☊☍ ⏚⎍⏁ ⟟ ⋏⟒⎐⟒⍀ ☌⍜⏁ ⏃ ⏁⍀⏃☊☍⟟⋏☌ ⋏⎍⋔⏚⟒⍀. ⌀ ⍜⎍⏁ ⍜⎎ ⊕!", author: glorp }
+  -
+    name: 'OWASP Juice Shop Holographic Sticker'
     description: "Die-cut holographic sticker. Stand out from those 08/15-sticker-covered laptops with this shiny beacon of 80's coolness!"
     price: 2.00
     quantity: 0
     image: holo_sticker.png
     reviews:
-      - { text: "Rad, dude!", author: rapper }
+      - { text: "⍙⍜⍀☍⌇ ⏃⌇ ⟒⌖⌿⟒☊⏁⟒⎅ :)", author: glorp }
       - { text: "Looks spacy on Bones' new tricorder!", author: jim }
       - {
           text: "Will put one on the Planet Express ship's bumper!",
@@ -366,12 +354,9 @@ products:
     limitPerUser: 1
     image: permafrost.jpg
     reviews:
-      - {
-          text: "🧊 Let it go, let it go 🎶 Can't hold it back anymore 🎶 Let it go, let it go 🎶 Turn away and slam the door ❄️",
-          author: rapper,
-        }
-  - name: "Best Juice Shop Salesman Artwork"
-    description: "Unique digital painting depicting Stan, our most qualified and almost profitable salesman. He made a succesful carreer in selling used ships, coffins, krypts, crosses, real estate, life insurance, restaurant supplies, voodoo enhanced asbestos and courtroom souvenirs before <em>finally</em> adding his expertise to the Juice Shop marketing team."
+      - { text: "🧊 Let it go, let it go 🎶 Can't hold it back anymore 🎶 Let it go, let it go 🎶 Turn away and slam the door ❄️", author: chris }
+  - name: 'Best Juice Shop Salesman Artwork'
+    description: 'Unique digital painting depicting Stan, our most qualified and almost profitable salesman. He made a succesful carreer in selling used ships, coffins, krypts, crosses, real estate, life insurance, restaurant supplies, voodoo enhanced asbestos and courtroom souvenirs before <em>finally</em> adding his expertise to the Juice Shop marketing team.'
     price: 5000
     quantity: 1
     image: artwork2.jpg
@@ -410,11 +395,8 @@ products:
     limitPerUser: 1
     image: lego_case.jpg
     reviews:
-      - {
-          text: "Check out the /#/photo-wall for some impressions of the assembly process!",
-          author: bjoernOwasp,
-        }
-  - name: "DSOMM & Juice Shop User Day Ticket"
+      - { text: 'Check out the /#/photo-wall for some cool pics btw', author: john }
+  - name: 'DSOMM & Juice Shop User Day Ticket'
     description: 'You are going to the OWASP Global AppSec San Francisco 2024? <a href="https://www.eventbrite.com/e/owasp-global-appsec-san-francisco-2024-tickets-723699172707" target="_blank">Get a ticket<sup>*</sup></a> for this amazing side event as well! Check the juice-packed agenda <a href="https://owasp.org/www-project-juice-shop/#div-userday2024" target="_blank">here</a> for all the details!<br><br><small><small><sup>*</sup>=scroll down to <strong>Elevate: DSOMM and Juice Shop User Day (Sept. 25)</strong> after clicking <em>Get Tickets</em> on Eventbrite. Ticket price set to only covers fees for room, AV, and catering throughout the day.</small></small>'
     price: 55.20
     deletedDate: "2024-09-26"

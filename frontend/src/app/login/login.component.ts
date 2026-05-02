@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
   public clientId = '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
   public oauthUnavailable = true
   public redirectUri = ''
-  public testingUsername = 'testing@juice-sh.op'
+  public testingUsername = 'testing@intergalactic.bazaar'
   public testingPassword = 'IamUsedForTesting'
 
   ngOnInit (): void {
@@ -75,15 +75,7 @@ export class LoginComponent implements OnInit {
     this.configurationService.getApplicationConfiguration().subscribe({
       next: (config) => {
         if (config?.application?.googleOauth) {
-          this.clientId = config.application.googleOauth.clientId
-          const authorizedRedirect = config.application.googleOauth.authorizedRedirects.find(r => r.uri === this.redirectUri)
-          if (authorizedRedirect) {
-            this.oauthUnavailable = false
-            this.redirectUri = authorizedRedirect.proxy ? authorizedRedirect.proxy : authorizedRedirect.uri
-          } else {
-            this.oauthUnavailable = true
-            console.log(this.redirectUri + ' is not an authorized redirect URI for this application.')
-          }
+          this.oauthUnavailable = true
         }
       },
       error: (err) => { console.log(err) }
