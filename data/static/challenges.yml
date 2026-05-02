@@ -1370,10 +1370,10 @@
 -
   name: 'Security Advisory'
   category: 'Miscellaneous'
-  description: 'The Intergalactic Bazaar is susceptible to a known vulnerability in a library, for which an advisory has already been issued, marking the Intergalactic Bazaar as <i>known affected</i>. A fix is still pending. <a href="/#/contact">Inform the shop</a> about a suitable checksum as proof that you did your due diligence.'
+  description: 'The Intergalactic Bazaar is susceptible to a known vulnerability in a library, for which an advisory has already been issued using the CSAF spec, marking the Intergalactic Bazaar as <i>known affected</i>. A fix is still pending. <a href="/#/contact">Inform the shop</a> of the relevant SHA512 checksum as proof that you did your due diligence.'
   difficulty: 3
   hints:
-    - 'Security Advisories are often listed in the security.txt'
+    - 'If you found the security.txt already, you may want to just open its parent folder :)'
   mitigationUrl: ~
   key: csafChallenge
 -
