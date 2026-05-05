@@ -1292,7 +1292,7 @@
   hints:
     - 'Take a look at the meta data of the corresponding photo.'
     - 'Make use of tools that can inspect the metadata of images.'
-    - 'Use this information to answer the security question of the John, who enjoys hiking in the park.'
+    - 'Use this information to answer the security question of the John, who enjoys going for long walks in the city.'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
   key: geoStalkingMetaChallenge
 -

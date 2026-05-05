@@ -26,5 +26,5 @@
 -
   question: 'Number of one of your customer or ID cards?'
 -
-  question: "What's your favorite place to go hiking?"
+  question: "What's your favorite place to go for a walk?"
 # vuln-code-snippet end resetPasswordBjoernOwaspChallenge resetPasswordBjoernChallenge resetPasswordJimChallenge resetPasswordBenderChallenge resetPasswordUvoginChallenge

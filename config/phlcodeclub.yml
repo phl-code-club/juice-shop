@@ -441,35 +441,15 @@ memories:
     caption: 'My rare collectors item! [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]'
     user: bjoernGoogle
   -
-    image: 'favorite-hiking-place.png'
-    caption: 'I love going hiking here...'
+    image: 'favorite-city.png'
+    caption: 'I love walking here...'
     geoStalkingMetaSecurityQuestion: 14
-    geoStalkingMetaSecurityAnswer: 'Daniel Boone National Forest'
+    geoStalkingMetaSecurityAnswer: 'Tataouine'
   -
     image: 'IMG_4253.jpg'
     caption: 'My old workplace...'
     geoStalkingVisualSecurityQuestion: 10
     geoStalkingVisualSecurityAnswer: 'ITsec'
-  -
-    image: 'BeeHaven.png'
-    caption: 'Welcome to the Bee Haven (/#/bee-haven)🐝'
-    user: evm
-  -
-    image: 'sorted-the-pieces,-starting-assembly-process-1721152307290.jpg'
-    caption: 'Sorted the pieces, starting assembly process...'
-    user: bjoernOwasp
-  -
-    image: 'building-something-literally-bottom-up-1721152342603.jpg'
-    caption: 'Building something literally bottom up...'
-    user: bjoernOwasp
-  -
-    image: 'putting-in-the-hardware-1721152366854.jpg'
-    caption: 'Putting in the hardware...'
-    user: bjoernOwasp
-  -
-    image: 'everything-up-and-running!-1721152385146.jpg'
-    caption: 'Everything up and running!'
-    user: bjoernOwasp
 ctf:
   showFlagsInNotifications: false
   showCountryDetailsInNotifications: none # Options: none  name  flag  both

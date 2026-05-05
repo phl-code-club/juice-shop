@@ -130,6 +130,7 @@ export const checkMinimumRequiredNumberOfMemories = (memories: MemoryConfig[]) =
 export const checkUnambiguousMandatorySpecialMemories = (memories: MemoryConfig[]) => {
   let success = true
   specialMemories.forEach(({ name, keys }) => {
+    console.log(...memories)
     const matchingMemories = memories.filter((memory) => memory[keys[0]] && memory[keys[1]])
     if (matchingMemories.length === 0) {
       logger.warn(`No memory is configured as ${colors.italic(name)} but one is required (${colors.red('NOT OK')})`)
