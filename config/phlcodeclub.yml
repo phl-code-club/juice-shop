@@ -181,7 +181,7 @@ products:
       - eurogium edule
   -
     name: 'Blinking Wort'
-    description: 'Primitive species that has survived many intergalactic warfare. He holds the knowledge of a thousand bursting stars'
+    description: 'Primitive species that has survived many intergalactic warfare. He holds the knowledge of a billion burning stars'
     price: 999.99
     image: blinking-wort.png
     deletedDate: '2017-04-28'
@@ -277,7 +277,7 @@ products:
     deletedDate: '2020-12-24'
   -
     name: 'Wormbies'
-    description: 'Wormbo babies'
+    description: 'Wormbo&apos;s babies'
     price: 0.13
     image: wormbies.png
     deletedDate: '2017-07-01'
@@ -287,10 +287,10 @@ products:
     price: 2003.99
     image: zoorg-iridium-cranium-wax.png
   -
-    name: 'Carrot Juice (1000ml)'
-    description: 'As the old German saying goes: "Carrots are good for the eyes. Or has anyone ever seen a rabbit with glasses?"'
-    price: 2.99
-    image: carrot_juice.jpeg
+    name: 'Geraldean'
+    description: 'Everyone wants to be her, but there&apos;s only one.'
+    price: 3299.99
+    image: geraldean.png
     reviews:
       - { text: '0 st4rs f0r 7h3 h0rr1bl3 s3cur17y', author: uvogin }
   -
