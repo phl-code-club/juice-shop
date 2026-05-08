@@ -1,14 +1,14 @@
 server:
   port: 3000
-  basePath: ''
-  baseUrl: 'http://localhost:3000' # used for CSAF, e.g. https://example.com
+  basePath: ""
+  baseUrl: "http://localhost:3000" # used for CSAF, e.g. https://example.com
 application:
   # The email to be used for pre-generated users for some challenges
   domain: intergalactic.bazaar
   # Name of the shop
-  name: 'Intergalactic Bazaar'
+  name: "Intergalactic Bazaar"
   # TODO needs custom logo
-  logo: JuiceShop_Logo.png
+  logo: ufo.png
   # TODO needs custom favicon
   favicon: favicon_js.ico
   # The name of the theme to use -- purple-green looks nice but the green needs to be darker
@@ -19,21 +19,21 @@ application:
   privacyContactEmail: donotreply@intergalactic.bazaar
   customMetricsPrefix: bazaar
   chatBot:
-    name: 'Geraldine'
+    name: "Geraldean"
     greeting: "Greetings <customer-name>, you may refer to me as <bot-name>."
-    trainingData: 'botDefaultTrainingData.json'
+    trainingData: "botDefaultTrainingData.json"
     defaultResponse: "Speak clearer, Earthling. You are incomprehensible."
     # TODO need avatar
-    avatar: 'creepy-dog-head.png'
+    avatar: "creepy-dog-head.png"
   social:
-    blueSkyUrl: 'https://bsky.app/profile/owasp-juice.shop'
-    mastodonUrl: 'https://fosstodon.org/@owasp_juiceshop'
-    twitterUrl: 'https://twitter.com/owasp_juiceshop'
-    facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
-    slackUrl: 'https://owasp.org/slack/invite'
-    redditUrl: 'https://www.reddit.com/r/owasp_juiceshop'
-    pressKitUrl: 'https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop'
-    nftUrl: 'https://opensea.io/collection/juice-shop'
+    blueSkyUrl: "https://bsky.app/profile/owasp-juice.shop"
+    mastodonUrl: "https://fosstodon.org/@owasp_juiceshop"
+    twitterUrl: "https://twitter.com/owasp_juiceshop"
+    facebookUrl: "https://www.facebook.com/owasp.juiceshop"
+    slackUrl: "https://owasp.org/slack/invite"
+    redditUrl: "https://www.reddit.com/r/owasp_juiceshop"
+    pressKitUrl: "https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop"
+    nftUrl: "https://opensea.io/collection/juice-shop"
     questionnaireUrl: ~
   recyclePage:
     # TODO reuse two random images for these... not really sure why they're needed
@@ -41,21 +41,21 @@ application:
     bottomProductImage: apple_pressings.jpg
   welcomeBanner:
     showOnFirstStart: true
-    title: 'Welcome to Intergalactic Bazaar!'
+    title: "Welcome to Intergalactic Bazaar!"
     # TODO Customize this, explain how we customized Juice Shop
     message: "<h4>cash only · no returns · no promises</h4><p>Welcome <i>Earthling</i> to the <b>Intergalactic Bazaar</b>! A pit stop shop for your boundless voyage through the vast cosmos. We can't promise you the finest of supplies, but we're positive you'll discover what you need and what you didn't know existed at the bazaar. <br><br>There's poodles galore (also we'd really appreciate if you space travelers quit leaving your creatures behind). There's useless gadgets -- who knows if they actually do what they say on the label. We've got it all, even unexplainable saucer scraps (don't inquire about how we sourced these). If you can't find what you seek here, do you actually need it? <br><br>Still struggling? Well look a tad harder, Earthling, we don't have all day. Cash in on these incredible sales in the next twenty four hours -- there's no promise we'll be in business tomorrow.<br><br><b>Please use all the hints and tutorials available! Please ask questions to human mentees or peers instead of your AI overlords</b> -- today's a great chance to learn from your fellow Earthlings :)</p>"
   cookieConsent:
-    message: 'Intergalactic Bazaar forcibly provides your browser with cookies. IntergalactiCorp does not respect GDPR 👿.'
-    dismissText: 'Accept all cookies, or perish.'
-    linkText: ''
-    linkUrl: ''
-  # Might 
+    message: "Intergalactic Bazaar forcibly provides your browser with cookies. IntergalactiCorp does not respect GDPR 👿."
+    dismissText: "Accept all cookies, or perish."
+    linkText: ""
+    linkUrl: ""
+  # Might
   securityTxt:
-    contact: 'mailto:donotreply@intergalactic.bazaar'
-    encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
-    acknowledgements: '/#/score-board'
-    hiring: '/#/jobs'
-    csaf: '/.well-known/csaf/provider-metadata.json' # scheme,host,port taken from baseUrl
+    contact: "mailto:donotreply@intergalactic.bazaar"
+    encryption: "https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda"
+    acknowledgements: "/#/score-board"
+    hiring: "/#/jobs"
+    csaf: "/.well-known/csaf/provider-metadata.json" # scheme,host,port taken from baseUrl
   promotion:
     video: owasp_promo.mp4
     subtitles: owasp_promo.vtt
@@ -69,273 +69,266 @@ application:
   numberOfRandomFakeUsers: 0
 
   #googleOauth:
-    #clientId: ~
-    #authorizedRedirects:
-    #  - { uri: 'https://demo.owasp-juice.shop' }
-    #  - { uri: 'https://juice-shop.herokuapp.com' }
-    #  - { uri: 'https://preview.owasp-juice.shop' }
-    #  - { uri: 'https://juice-shop-staging.herokuapp.com' }
-    #  - { uri: 'https://juice-shop.wtf' }
-    #  - { uri: 'http://localhost:3000', proxy: 'https://local3000.owasp-juice.shop' }
-    #  - { uri: 'http://127.0.0.1:3000', proxy: 'https://local3000.owasp-juice.shop' }
-    #  - { uri: 'http://localhost:4200', proxy: 'https://local4200.owasp-juice.shop' }
-    #  - { uri: 'http://127.0.0.1:4200', proxy: 'https://local4200.owasp-juice.shop' }
-    #  - { uri: 'http://192.168.99.100:3000', proxy: 'https://localmac.owasp-juice.shop' }
-    #  - { uri: 'http://192.168.99.100:4200', proxy: 'https://localmac.owasp-juice.shop' }
-    #  - { uri: 'http://penguin.termina.linux.test:3000', proxy: 'https://localchromeos.owasp-juice.shop' }
-    #  - { uri: 'http://penguin.termina.linux.test:4200', proxy: 'https://localchromeos.owasp-juice.shop' }
+  #clientId: ~
+  #authorizedRedirects:
+  #  - { uri: 'https://demo.owasp-juice.shop' }
+  #  - { uri: 'https://juice-shop.herokuapp.com' }
+  #  - { uri: 'https://preview.owasp-juice.shop' }
+  #  - { uri: 'https://juice-shop-staging.herokuapp.com' }
+  #  - { uri: 'https://juice-shop.wtf' }
+  #  - { uri: 'http://localhost:3000', proxy: 'https://local3000.owasp-juice.shop' }
+  #  - { uri: 'http://127.0.0.1:3000', proxy: 'https://local3000.owasp-juice.shop' }
+  #  - { uri: 'http://localhost:4200', proxy: 'https://local4200.owasp-juice.shop' }
+  #  - { uri: 'http://127.0.0.1:4200', proxy: 'https://local4200.owasp-juice.shop' }
+  #  - { uri: 'http://192.168.99.100:3000', proxy: 'https://localmac.owasp-juice.shop' }
+  #  - { uri: 'http://192.168.99.100:4200', proxy: 'https://localmac.owasp-juice.shop' }
+  #  - { uri: 'http://penguin.termina.linux.test:3000', proxy: 'https://localchromeos.owasp-juice.shop' }
+  #  - { uri: 'http://penguin.termina.linux.test:4200', proxy: 'https://localchromeos.owasp-juice.shop' }
 challenges:
   showSolvedNotifications: true
   showHints: true
   showMitigations: true
   codingChallengesEnabled: solved # Options: never  solved  always
   restrictToTutorialsFirst: false
-  overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
+  overwriteUrlForProductTamperingChallenge: "https://owasp.slack.com"
   xssBonusPayload: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'
   safetyMode: auto # Options: enabled disabled auto
   csafHashValue: 7e7ce7c65db3bf0625fcea4573d25cff41f2f7e3474f2c74334b14fc65bb4fd26af802ad17a3a03bf0eee6827a00fb8f7905f338c31b5e6ea9cb31620242e843
   metricsIgnoredUserAgents:
-    - 'Prometheus'
-    - 'Alloy'
-    - 'promscrape'
-    - 'otelcol'
+    - "Prometheus"
+    - "Alloy"
+    - "promscrape"
+    - "otelcol"
 hackingInstructor:
   isEnabled: true
   avatarImage: instructor.png
   hintPlaybackSpeed: normal # Options: faster fast normal slow slower
 products:
-  -
-    name: 'Alien Pood'
+  - name: "Alien Pood"
     price: 1.99
     deluxePrice: 0.99
     limitPerUser: 5
-    description: 'This pood is a tad rude but will lighten your mood. A loyal companion for your long trek!'
+    description: "This pood is a tad rude but will lighten your mood. A loyal companion for your long trek!"
     image: alien-pood.png
     reviews:
-      - { text: 'One of my favorites!', author: admin }
+      - { text: "One of my favorites!", author: admin }
       - { text: "Wow what kind of cow is this.", author: stan }
-  -
-    name: 'Andi'
-    description: 'From the planet of Crao B64 -- a mutation of sorts, the last of its kind. Keep a close eye on him, he can conduct simultaneous attacks!'
+  - name: "Andi"
+    description: "From the planet of Crao B64 -- a mutation of sorts, the last of its kind. Keep a close eye on him, he can conduct simultaneous attacks!"
     price: 2.99
     deluxePrice: 2.49
     image: andi.png
     reviews:
-      - { text: 'y0ur f1r3wall needs m0r3 musc13', author: uvogin }
-  -
-    name: 'Assorted Leaking Saucer Bits'
-    description: 'Scrounging for parts? Look no further. Now with even more exotic flavour.'
+      - { text: "y0ur f1r3wall needs m0r3 musc13", author: uvogin }
+  - name: "Assorted Leaking Saucer Bits"
+    description: "Scrounging for parts? Look no further. Now with even more exotic flavour."
     price: 8.99
     image: assorted-leaking-bits.png
     reviews:
-      - { text: 'I bought it. would buy again. 5/7', author: admin }
-      - { text: "⟟⏁⟒⋔ ⋏⟒⎐⟒⍀ ⍀⟒☊⟒⟟⎐⟒⎅ -- ⌇⟒⌰⌰⟒⍀ ☊⌰⏃⟟⋔⌇ ⌿⟟⍀⏃⏁⟒⌇ ⌇⏁⍜⌰⟒ ⟟⏁ ⎎⍀⍜⋔ ⋔⊬ ⏃⟟⍀⌰⍜☊☍ ⏚⎍⏁ ⟟ ⋏⟒⎐⟒⍀ ☌⍜⏁ ⏃ ⏁⍀⏃☊☍⟟⋏☌ ⋏⎍⋔⏚⟒⍀. ⌀ ⍜⎍⏁ ⍜⎎ ⊕!", author: glorp }
-  -
-    name: 'Glorp Juice (1000ml)'
-    description: 'A pleasant floral taste -- consuming a whole bottle possess miraculous healing properties.'
+      - { text: "I bought it. would buy again. 5/7", author: admin }
+      - {
+          text: "⟟⏁⟒⋔ ⋏⟒⎐⟒⍀ ⍀⟒☊⟒⟟⎐⟒⎅ -- ⌇⟒⌰⌰⟒⍀ ☊⌰⏃⟟⋔⌇ ⌿⟟⍀⏃⏁⟒⌇ ⌇⏁⍜⌰⟒ ⟟⏁ ⎎⍀⍜⋔ ⋔⊬ ⏃⟟⍀⌰⍜☊☍ ⏚⎍⏁ ⟟ ⋏⟒⎐⟒⍀ ☌⍜⏁ ⏃ ⏁⍀⏃☊☍⟟⋏☌ ⋏⎍⋔⏚⟒⍀. ⌀ ⍜⎍⏁ ⍜⎎ ⊕!",
+          author: glorp,
+        }
+  - name: "Glorp Juice (1000ml)"
+    description: "A pleasant floral taste -- consuming a whole bottle possess miraculous healing properties."
     price: 4.99
     image: glorp-juice.png
     reviews:
       - { text: "Wimp juice for puny human weaklings!", author: bender }
-  -
-    name: 'Andian Monitoring Device'
-    description: 'Easy to use gadget that tests a SSL connection according to given list of ciphers and various SSL configurations.'
+  - name: "Andian Monitoring Device"
+    description: "Easy to use gadget that tests a SSL connection according to given list of ciphers and various SSL configurations."
     price: 2.99
     deluxePrice: 1.99
     limitPerUser: 5
     image: andi-toy.png
     reviews:
-      - { text: "Ooooh, puny humans play silly games, now? 1/10", author: bender }
-  -
-    name: 'Triple-Distilled Schlorp Fluid (by the ton)'
-    description: 'Earthlings love it the most. For whatever reason. Also the bottle is like, really big.'
+      - {
+          text: "Ooooh, puny humans play silly games, now? 1/10",
+          author: bender,
+        }
+  - name: "Triple-Distilled Schlorp Fluid (by the ton)"
+    description: "Earthlings love it the most. For whatever reason. Also the bottle is like, really big."
     price: 1.99
     image: triple-distelled-schlorp-fluid-by-the-ton.png
     reviews:
-      - { text: 'Fry liked it too.', author: bender }
-  -
-    name: 'Scrumbachi'
-    description: 'Like a tamagotchi but different, each one features a captured Scrum Master from the planet of Scrumbini!'
+      - { text: "Fry liked it too.", author: bender }
+  - name: "Scrumbachi"
+    description: "Like a tamagotchi but different, each one features a captured Scrum Master from the planet of Scrumbini!"
     price: 22.49
     limitPerUser: 5
     image: scrumbachi.png
-  -
-    name: 'Tasteful Poodle'
-    description: 'A one of the kind portrait -- for the serious hacker only!'
+  - name: "Tasteful Poodle"
+    description: "A one of the kind portrait -- for the serious hacker only!"
     price: 22660.49
     limitPerUser: 1
     image: tasteful-poodle.png
-  -
-    name: 'Ray Gun'
-    description: 'Zap away the scraper bots! One-time use.'
+  - name: "Ray Gun"
+    description: "Zap away the scraper bots! One-time use."
     price: 300.49
     image: ray-gun.png
-    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
-  -
-    name: 'Schlorp'
-    description: 'Each schlorp only knows suffering, and yearns for a loving host. They produce hydrating schlorp juice for dewy, supple carapaces.'
+    urlForProductTamperingChallenge: "https://www.owasp.org/index.php/O-Saft"
+  - name: "Schlorp"
+    description: "Each schlorp only knows suffering, and yearns for a loving host. They produce hydrating schlorp juice for dewy, supple carapaces."
     price: 29.99
     image: schlorp.png
     reviews:
-      - { text: '⏁⊑⟟⌇ ⍜⋏⟒ ⋔⏃⎅⟒ ☌⌰⍜⍀⌿ ⌇⏃⎅ :(', author: glorp }
-  -
-    name: 'Christmas Super-Surprise-Box (2014 Edition)'
-    description: 'Contains a random selection of 10 bottles (each 500ml) of our tastiest juices and an extra fan shirt for an unbeatable price!'
+      - { text: "⏁⊑⟟⌇ ⍜⋏⟒ ⋔⏃⎅⟒ ☌⌰⍜⍀⌿ ⌇⏃⎅ :(", author: glorp }
+  - name: "Christmas Super-Surprise-Box (2014 Edition)"
+    description: "Contains a random selection of 10 bottles (each 500ml) of our tastiest juices and an extra fan shirt for an unbeatable price!"
     price: 29.99
     image: undefined.jpg
     useForChristmasSpecialChallenge: true
-  -
-    name: 'Banquet Toob Dinner'
+  - name: "Banquet Toob Dinner"
     description: 'Contains a digestible collection of the rarest treats gathered from all over the universe, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and stuff, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
     price: 16.99
     image: banquet-toob-dinner.png
     keywordsForPastebinDataLeakChallenge:
       - hueteroneel
       - eurogium edule
-  -
-    name: 'Blinking Wort'
-    description: 'Primitive species that has survived numerous intergalactic wars. They hold the knowledge of a billion burning stars.'
+  - name: "Blinking Wort"
+    description: "Primitive species that has survived numerous intergalactic wars. They hold the knowledge of a billion burning stars."
     price: 999.99
     image: blinking-wort.png
-  -
-    name: 'Bobbl Beans 👍️'
-    description: 'Freeze-dried beans, enjoy them on the go! Small enough to avoid clogging your proboscis!'
+  - name: "Bobbl Beans 👍️"
+    description: "Freeze-dried beans, enjoy them on the go! Small enough to avoid clogging your proboscis!"
     price: 26.99
     image: bobbl-bean.png
     reviews:
-      - { text: 'Check out the /#/photo-wall for some cool pics btw', author: john }
-  -
-    name: 'Clawfoot Monitor'
-    description: 'it has toes !!'
+      - {
+          text: "Check out the /#/photo-wall for some cool pics btw",
+          author: john,
+        }
+  - name: "Clawfoot Monitor"
+    description: "it has toes !!"
     price: 215.99
     image: clawfoot-monitor.png
     reviews:
-      - { text: "finally! love watching All My Circuits on this 🤖", author: bender }
+      - {
+          text: "finally! love watching All My Circuits on this 🤖",
+          author: bender,
+        }
       - { text: "⍙⍜⍀☍⌇ ⏃⌇ ⟒⌖⌿⟒☊⏁⟒⎅ :)", author: glorp }
-  -
-    name: 'Debra'
-    description: 'Does Debra look familiar to you? Sounds about right! Debra likes to sneak onto spaceships and hitch free rides.'
+  - name: "Debra"
+    description: "Does Debra look familiar to you? Sounds about right! Debra likes to sneak onto spaceships and hitch free rides."
     price: 9.99
     quantity: 1
     image: debra.png
-  -
-    name: 'Fungtastic Species (4oz)'
-    description: 'Do not remove it from its rock, or a funky vapor will permeate your ship. We suggest gifting this to your foes ;)'
+  - name: "Fungtastic Species (4oz)"
+    description: "Do not remove it from its rock, or a funky vapor will permeate your ship. We suggest gifting this to your foes ;)"
     price: 4.99
     image: fungtastic-species.png
-  -
-    name: 'Glorp (4oz)'
-    description: 'Used to make freshly squeezed glorp juice. A bit puzzling to the eyes, but definitely tastes good!'
+  - name: "Glorp (4oz)"
+    description: "Used to make freshly squeezed glorp juice. A bit puzzling to the eyes, but definitely tastes good!"
     price: 14.99
     image: glorp.png
     reviews:
-      - { text: 'really enjoyed this,.., ', author: bjoern }
-  -
-    name: 'Goolox Prism (Grade A)'
-    description: 'Carry the entire human light spectrum in your pocket and see things from an Earthling''s perspective. Ooooo trippyyyyyy...'
+      - { text: "really enjoyed this,.., ", author: bjoern }
+  - name: "Goolox Prism (Grade A)"
+    description: "Carry the entire human light spectrum in your pocket and see things from an Earthling's perspective. Ooooo trippyyyyyy..."
     price: 21.99
     image: goolox-prism-grade-a.png
     reviews:
-      - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: chris }
-  -
-    name: 'Gretchen'
-    description: 'just look at her... she is precious and wants to be your friend. Be warned, she might yap your ear off about each and every celestial body in the universe.'
+      - {
+          text: "Looks so much better on my uniform than the boring Starfleet symbol.",
+          author: chris,
+        }
+  - name: "Gretchen"
+    description: "just look at her... she is precious and wants to be your friend. Be warned, she might yap your ear off about each and every celestial body in the universe."
     price: 49.99
     quantity: 1
     image: gretchen.png
-  -
-    name: 'Hyrax Obelisk (Unethically Sourced)'
-    description: 'A rare telecommunication artifact for handling intergalactic calls -- but be careful: it may sneak in a lie or two.'
-    price: 1000000.76 
+  - name: "Hyrax Obelisk (Unethically Sourced)"
+    description: "A rare telecommunication artifact for handling intergalactic calls -- but be careful: it may sneak in a lie or two."
+    price: 1000000.76
     quantity: 5
     limitPerUser: 5
     image: hyrax-obelisk-unethically-sourced.png
     reviews:
-      - { text: '⏁⊑⟟⌇ ⌿⍀⍜⎅⎍☊⏁ ⎐⟒⍀⊬ ☌⍜⍜⎅ 👍', author: glorp }
-  -
-    name: 'Jelly (Fetid)'
-    description: 'there is something suspicious going on here. there&apos;ve been reports of hallucinations after consuming this jelly. this is not okay'
+      - { text: "⏁⊑⟟⌇ ⌿⍀⍜⎅⎍☊⏁ ⎐⟒⍀⊬ ☌⍜⍜⎅ 👍", author: glorp }
+  - name: "Jelly (Fetid)"
+    description: "there is something suspicious going on here. there&apos;ve been reports of hallucinations after consuming this jelly. this is not okay"
     price: 6.99
     image: jelly-fetid.png
-  -
-    name: 'Lutinean Obelisk Fragment (Ethically Sourced)'
-    description: 'Looks poisonous, but is actually very good for your health! It does bite'
+  - name: "Lutinean Obelisk Fragment (Ethically Sourced)"
+    description: "Looks poisonous, but is actually very good for your health! It does bite"
     price: 1.99
     image: lutinean-obelisk-fragment-ethically-sourced.png
     reviews:
-      - { text: 'Fresh out of a replicator. I love working on the Enterprise.', author: jim }
-  -
-    name: 'Earthling "Toob"'
-    description: 'There are many tales of earthlings turning to zombies after observing the toob.'
+      - {
+          text: "Fresh out of a replicator. I love working on the Enterprise.",
+          author: jim,
+        }
+  - name: 'Earthling "Toob"'
+    description: "There are many tales of earthlings turning to zombies after observing the toob."
     price: 4.99
     image: toob.png
     reviews:
-      - { text: "Just when my opinion of humans couldn't get any lower, along comes toob...", author: bender }
-      - { text: 'Love watching Interdimensional Cable on this!', author: morty }
-  -
-    name: 'Jelly (serves 8)'
-    description: 'Serving size of eight, 1000 calories per slice'
+      - {
+          text: "Just when my opinion of humans couldn't get any lower, along comes toob...",
+          author: bender,
+        }
+      - { text: "Love watching Interdimensional Cable on this!", author: morty }
+  - name: "Jelly (serves 8)"
+    description: "Serving size of eight, 1000 calories per slice"
     price: 10.89
     limitPerUser: 5
     image: jelly-serves-eight.png
-  -
-    name: 'Window Unit Air Conditioner (Used)'
-    description: 'In good condition, practically new. Don&apos;t low ball me, I know what it&apos;s worth'
+  - name: "Window Unit Air Conditioner (Used)"
+    description: "In good condition, practically new. Don&apos;t low ball me, I know what it&apos;s worth"
     price: 1700.99
     image: window-unit-air-conditioner-used.png
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
     exifForBlueprintChallenge:
       - OpenSCAD
     reviews:
-      - { text: "Looks great sticking out the Enterprise's front windshield!", author: jim }
-  -
-    name: 'Wormbo'
-    description: 'Wormbo does not recall how he got here -- he&apos;s been anxiously reproducing every 5 minutes.'
+      - {
+          text: "Looks great sticking out the Enterprise's front windshield!",
+          author: jim,
+        }
+  - name: "Wormbo"
+    description: "Wormbo does not recall how he got here -- he&apos;s been anxiously reproducing every 5 minutes."
     price: 278.74
     quantity: 1
     image: wormbo.png
-    deletedDate: '2020-12-24'
-  -
-    name: 'Wormbies (30ct)'
-    description: 'Wormbo&apos;s babies -- he just keeps making more of them. Please help us get rid of them.'
+    deletedDate: "2020-12-24"
+  - name: "Wormbies (30ct)"
+    description: "Wormbo&apos;s babies -- he just keeps making more of them. Please help us get rid of them."
     price: 0.13
     image: wormbies.png
-    deletedDate: '2017-07-01'
-  -
-    name: 'Zorg Iridium Cranium Wax (500ml)'
-    description: 'Leaves craniums extra shiny and ready to receive electromagnetic radiation!'
+    deletedDate: "2017-07-01"
+  - name: "Zorg Iridium Cranium Wax (500ml)"
+    description: "Leaves craniums extra shiny and ready to receive electromagnetic radiation!"
     price: 2003.99
     image: zorg-iridium-cranium-wax.png
     reviews:
-      - { text: "Will put some on the Planet Express ship's bumper!", author: bender }
-  -
-    name: 'Geraldean'
-    description: 'Everyone wants to be her, but there&apos;s only one.'
+      - {
+          text: "Will put some on the Planet Express ship's bumper!",
+          author: bender,
+        }
+  - name: "Geraldean"
+    description: "Everyone wants to be her, but there&apos;s only one."
     price: 3299.99
     quantity: 1
-    deletedDate: '2024-09-26'
+    deletedDate: "2024-09-26"
     image: geraldean.png
     reviews:
-      - { text: '0 st4rs f0r 7h3 h0rr1bl3 s3cur17y', author: uvogin }
+      - { text: "0 st4rs f0r 7h3 h0rr1bl3 s3cur17y", author: uvogin }
 memories:
-  -
-    image: 'view.jpg'
-    caption: '⍜⎍⍀ ⎍⋏⟟⎐⟒⍀⌇⟒., ⌇⍜ ⍙⍜⋏⎅⟒⍀⎎⎍⌰ !'
+  - image: "view.jpg"
+    caption: "⍜⎍⍀ ⎍⋏⟟⎐⟒⍀⌇⟒., ⌇⍜ ⍙⍜⋏⎅⟒⍀⎎⎍⌰ !"
     user: glorp
-  -
-    image: 'great-items.png'
-    caption: 'they really sell some wonderful items here ! look at all them'
+  - image: "great-items.png"
+    caption: "they really sell some wonderful items here ! look at all them"
     user: chris
-  -
-    image: 'favorite-city.png'
-    caption: 'I love walking here...'
+  - image: "favorite-city.png"
+    caption: "I love walking here..."
     geoStalkingMetaSecurityQuestion: 14
-    geoStalkingMetaSecurityAnswer: 'Tataouine'
-  -
-    image: 'express.png'
-    caption: 'My old workplace...'
+    geoStalkingMetaSecurityAnswer: "Tataouine"
+  - image: "express.png"
+    caption: "My old workplace..."
     geoStalkingVisualSecurityQuestion: 10
-    geoStalkingVisualSecurityAnswer: 'Planet Express'
+    geoStalkingVisualSecurityAnswer: "Planet Express"
 ctf:
   showFlagsInNotifications: false
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
