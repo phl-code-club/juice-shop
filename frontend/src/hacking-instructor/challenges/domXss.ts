@@ -21,19 +21,19 @@ export const DomXssInstruction: ChallengeInstruction = {
       resolved: waitInMs(8000)
     },
     {
-      text: "Let's start by searching for all products containing `owasp` in their name or description.",
+      text: "Let's start by searching for all products containing `schlorp` in their name or description.",
       fixture: '#product-search-fixture',
       unskippable: true,
-      resolved: waitForInputToHaveValue('#searchQuery input', 'owasp')
+      resolved: waitForInputToHaveValue('#searchQuery input', 'schlorp')
     },
     {
       text: 'Now hit enter.',
       fixture: '#product-search-fixture',
       unskippable: true,
-      resolved: waitForElementsInnerHtmlToBe('#searchValue', 'owasp')
+      resolved: waitForElementsInnerHtmlToBe('#searchValue', 'schlorp')
     },
     {
-      text: 'Nice! You should now see many cool OWASP-related products.',
+      text: 'Nice! You should now see many cool schlorp-related products.',
       fixture: '#product-search-fixture',
       resolved: waitInMs(8000)
     },
@@ -48,25 +48,25 @@ export const DomXssInstruction: ChallengeInstruction = {
       resolved: waitInMs(15000)
     },
     {
-      text: 'Change your search value into `<h1>owasp` to see if we can inject HTML.',
+      text: 'Change your search value into `<marquee>schlorp` to see if we can inject HTML.',
       fixture: '#product-search-fixture',
       unskippable: true,
-      resolved: waitForInputToHaveValue('#searchQuery input', '<h1>owasp')
+      resolved: waitForInputToHaveValue('#searchQuery input', '<marquee>schlorp')
     },
     {
       text: 'Hit enter again.',
       fixture: '#product-search-fixture',
       unskippable: true,
-      resolved: waitForElementsInnerHtmlToBe('#searchValue', '<h1>owasp</h1>') // Browsers will autocorrect the unclosed tag.
+      resolved: waitForElementsInnerHtmlToBe('#searchValue', '<marquee>schlorp</marquee>') // Browsers will autocorrect the unclosed tag.
     },
     {
-      text: "Hmm, this doesn't look normal, does it?",
-      fixture: '.noResult',
+      text: "Hmm, that doesn't look normal down there, does it?",
+      fixture: '#product-search-fixture',
       resolved: waitInMs(8000)
     },
     {
-      text: 'If you right-click on the search term and inspect that part of the page with your browser, you will see that our `h1`-tag was _actually_ embedded into the page and is not just shown as plain text!',
-      fixture: '.noResult',
+      text: 'If you right-click on the search term and inspect that part of the page with your browser, you will see that our `marquee`-tag was _actually_ embedded into the page and is not just shown as plain text!',
+      fixture: '#product-search-fixture',
       resolved: waitInMs(16000)
     },
     {
@@ -82,8 +82,8 @@ export const DomXssInstruction: ChallengeInstruction = {
       resolved: waitForElementsInnerHtmlToBe('#searchValue', '<script>alert(xss)</script>')
     },
     {
-      text: "😔 This didn't work as we hoped. If you inspect the page, you should see the `script`-tag but it is not executed for some reason.",
-      fixture: '.noResult',
+      text: "😔 This didn't work as we hoped. If you inspect the page, you'll see the `script`-tag but it is not executed, since the `<script>` tags have been HTML-encoded for some reason.",
+      fixture: '#product-search-fixture',
       resolved: waitInMs(10000)
     },
     {
@@ -101,13 +101,13 @@ export const DomXssInstruction: ChallengeInstruction = {
     {
       text:
         '🎉 Congratulations! You just successfully performed an XSS attack!',
-      fixture: '.noResult',
+      fixture: '#product-search-fixture',
       resolved: waitInMs(8000)
     },
     {
       text:
         'More precisely, this was a **DOM XSS** attack, because your payload was handled and improperly embedded into the page by the application frontend code without even sending it to the server.',
-      fixture: '.noResult',
+      fixture: '#product-search-fixture',
       resolved: waitInMs(16000)
     }
   ]
