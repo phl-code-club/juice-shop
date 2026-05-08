@@ -65,7 +65,7 @@ async function processQuery (user: User, req: Request, res: Response, next: Next
   if (!username) {
     res.status(200).json({
       action: 'namequery',
-      body: 'I\'m sorry I didn\'t get your name. What shall I call you?'
+      body: 'What shall I call you?'
     })
     return
   }
@@ -193,7 +193,7 @@ export const status = function status () {
     if (!username) {
       res.status(200).json({
         action: 'namequery',
-        body: 'I\'m sorry I didn\'t get your name. What shall I call you?'
+        body: 'What shall I call you?'
       })
       return
     }

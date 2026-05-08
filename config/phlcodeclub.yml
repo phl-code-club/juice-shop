@@ -19,12 +19,12 @@ application:
   privacyContactEmail: donotreply@intergalactic.bazaar
   customMetricsPrefix: bazaar
   chatBot:
-    name: 'Bazzy'
-    greeting: "Nice to meet you <customer-name>, I'm <bot-name>."
+    name: 'Geraldine'
+    greeting: "Greetings <customer-name>, you may refer to me as <bot-name>."
     trainingData: 'botDefaultTrainingData.json'
-    defaultResponse: "Sorry, I couldn't understand what you were trying to say."
+    defaultResponse: "Speak clearer, Earthling. You are incomprehensible."
     # TODO need avatar
-    avatar: 'JuicyChatBot.png'
+    avatar: 'creepy-dog-head.png'
   social:
     blueSkyUrl: 'https://bsky.app/profile/owasp-juice.shop'
     mastodonUrl: 'https://fosstodon.org/@owasp_juiceshop'
