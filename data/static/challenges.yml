@@ -807,9 +807,11 @@
 -
   name: 'Product Tampering'
   category: 'Broken Access Control'
-  description: 'Change the <code>href</code> of the link within the <a href="/#/search?q=OWASP SSL Advanced Forensic Tool (O-Saft)">OWASP SSL Advanced Forensic Tool (O-Saft)</a> product description into <i>https://owasp.slack.com</i>.'
+  description: 'Change the <code>href</code> of the link within the <a href="/#/search?q=OWASP SSL Advanced Forensic Tool (O-Saft)">OWASP SSL Advanced Forensic Tool (O-Saft)</a> product description into <i>javascript:alert(document.cookie)</i>.'
   difficulty: 3
   hints:
+    - 'There might be an API that isn''t used by the frontend that you might be able to craft from some of the others in use :)'
+    - 'ok lowkey it''s sort of hard to figure out but I want you to get this -- it'' /api/Products/<id> -- but what HTTP method? 🤔'
     - 'Theoretically there are three possible ways to beat this challenge: a) broken admin functionality, b) holes in RESTful API or c) possibility for SQL Injection.'
     - 'In practice two of these three ways should turn out to be dead ends.'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html'

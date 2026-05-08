@@ -90,7 +90,7 @@ challenges:
   showMitigations: true
   codingChallengesEnabled: solved # Options: never  solved  always
   restrictToTutorialsFirst: false
-  overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
+  overwriteUrlForProductTamperingChallenge: 'javascript:alert(document.cookie)'
   xssBonusPayload: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'
   safetyMode: auto # Options: enabled disabled auto
   csafHashValue: 7e7ce7c65db3bf0625fcea4573d25cff41f2f7e3474f2c74334b14fc65bb4fd26af802ad17a3a03bf0eee6827a00fb8f7905f338c31b5e6ea9cb31620242e843
@@ -170,7 +170,16 @@ products:
     description: 'Zap away the scraper bots! One-time use.'
     price: 300.49
     image: ray-gun.png
-    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
+  -
+    name: 'PHL Code Club ??'
+    description: 'How did this get here? Anyways, here''s a link to our site :) ➡️'
+    price: 215.00
+    image: phl.png
+    urlForProductTamperingChallenge: 'https://phlcode.club'
+    reviews:
+      - { text: 'Genuinely a really great club', author: admin }
+      - { text: '⏁⊑⟒ ⌿⌿⌰ ⏃⍀⟒ ⌇⍜ ⎎⎍⋏ :'')', author: glorp }
+      - { text: 'Subscribe to our Luma calendar! Typically 2 events per month!', author: bender }
   -
     name: 'Schlorp'
     description: 'Each schlorp only knows suffering, and yearns for a loving host. They produce hydrating schlorp juice for dewy, supple carapaces.'
