@@ -23,18 +23,18 @@ RUN npm run sbom
 FROM gcr.io/distroless/nodejs24-debian13
 ARG BUILD_DATE
 ARG VCS_REF
-LABEL maintainer="Bjoern Kimminich <bjoern.kimminich@owasp.org>" \
-    org.opencontainers.image.title="OWASP Juice Shop" \
-    org.opencontainers.image.description="Probably the most modern and sophisticated insecure web application" \
-    org.opencontainers.image.authors="Bjoern Kimminich <bjoern.kimminich@owasp.org>" \
-    org.opencontainers.image.vendor="Open Worldwide Application Security Project" \
-    org.opencontainers.image.documentation="https://help.owasp-juice.shop" \
-    org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.version="19.2.1" \
-    org.opencontainers.image.url="https://owasp-juice.shop" \
-    org.opencontainers.image.source="https://github.com/juice-shop/juice-shop" \
-    org.opencontainers.image.revision=$VCS_REF \
-    org.opencontainers.image.created=$BUILD_DATE
+LABEL maintainer="Graham Vasquez <graham@phlcode.club>" \
+  org.opencontainers.image.title="Intergalactic Bazaar" \
+  org.opencontainers.image.description="It's legit just Juice Shop lol" \
+  org.opencontainers.image.authors="Graham Vasquez <graham@phlcode.club>" \
+  org.opencontainers.image.vendor="PHL Code Club" \
+  org.opencontainers.image.documentation="https://help.owasp-juice.shop" \
+  org.opencontainers.image.licenses="MIT" \
+  org.opencontainers.image.version="19.2.1" \
+  org.opencontainers.image.url="https://ctf.phlcode.club" \
+  org.opencontainers.image.source="https://github.com/phl-code-club/juice-shop" \
+  org.opencontainers.image.revision=$VCS_REF \
+  org.opencontainers.image.created=$BUILD_DATE
 WORKDIR /juice-shop
 COPY --from=installer --chown=65532:0 /juice-shop .
 USER 65532
