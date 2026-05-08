@@ -319,23 +319,23 @@ products:
       - { text: '0 st4rs f0r 7h3 h0rr1bl3 s3cur17y', author: uvogin }
 memories:
   -
-    image: 'magn(et)ificent!-1571814229653.jpg'
-    caption: 'Magn(et)ificent!'
-    user: bjoernGoogle
+    image: 'view.jpg'
+    caption: '⍜⎍⍀ ⎍⋏⟟⎐⟒⍀⌇⟒., ⌇⍜ ⍙⍜⋏⎅⟒⍀⎎⎍⌰ !'
+    user: glorp
   -
-    image: 'my-rare-collectors-item!-[̲̅$̲̅(̲̅-͡°-͜ʖ-͡°̲̅)̲̅$̲̅]-1572603645543.jpg'
-    caption: 'My rare collectors item! [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]'
-    user: bjoernGoogle
+    image: 'great-items.png'
+    caption: 'they really sell some wonderful items here ! look at all them'
+    user: chris
   -
     image: 'favorite-city.png'
     caption: 'I love walking here...'
     geoStalkingMetaSecurityQuestion: 14
     geoStalkingMetaSecurityAnswer: 'Tataouine'
   -
-    image: 'IMG_4253.jpg'
+    image: 'express.png'
     caption: 'My old workplace...'
     geoStalkingVisualSecurityQuestion: 10
-    geoStalkingVisualSecurityAnswer: 'ITsec'
+    geoStalkingVisualSecurityAnswer: 'Planet Express'
 ctf:
   showFlagsInNotifications: false
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
