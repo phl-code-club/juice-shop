@@ -64,7 +64,7 @@ application:
     overlayMap: orangemap2k.jpg
   # Unchanged, left at defaults
   showVersionNumber: true
-  showGitHubLinks: true
+  showGitHubLinks: false
   localBackupEnabled: true
   numberOfRandomFakeUsers: 0
 
